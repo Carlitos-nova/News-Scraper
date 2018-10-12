@@ -1,0 +1,14 @@
+<div class="col-lg-8">
+    <div class="articleList">
+        {{#each articles}}
+
+        <div class="card" style="width: 28rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{this.title}}</h5>
+                <p class="card-text">{{this.summary}}</p>
+                <a href="{{this.link}}" class="btn btn-primary">{{this.link}}</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
